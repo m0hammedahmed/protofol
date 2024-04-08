@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080710;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 70px; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 40%;
+}
+
+P {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    height: 100%;
+    list-style: none;
+    margin-right: 40px; 
+}
+
+ul li {
+    margin: 5px 15px; 
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: font-size 0.3s ease;
+}
+
+ul li a:hover {
+    font-size: 25px;
+    color: brown;
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+appearance: none;
+}
+.contaner{
+    height: 420px;
+    width: 700px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 53%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 30px 35px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.contaner{
+    display: flex;
+    flex-direction: row;
+}
+.fir{
+    width: 88%;
+    height: 100%;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #ea1d6f;
+    font-size: 26px;
+}
+.sec{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+    outline: none;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 10px 0px;
+}
+
+input:focus{
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+}
+
+button {
+    background: none;
+    border: none;
+    color: #ea1d6f;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    margin: 15px;
+}
+
+button:hover {
+    color: #b9134f;
+}
+input{
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+    -webkit-transition: border-color .2s;
+    -moz-transition: border-color .2s;
+    -ms-transition: border-color .2s;
+    -o-transition: border-color .2s;
+}
+
+input::placeholder {
+    color: #666;
+}
+
+input:focus {
+    border-bottom: 1px solid #ea1d6f;
+}
+.input_fir::placeholder{
+    color: #ddd;
+}
+.sec_span{
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    -moz-text-decoration-line: underline;
+    -moz-text-decoration-style: solid;
+}
+.fir p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 42px;
+    color: #ea1d6f;
+    position: absolute;
+    top:94%;
+    left: -12%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    border-top: white .5px solid;
+    position: relative;
+    margin-top: 41%;
+
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-title span{
+    color: blue;
+}
+.social-icons a{
+    color:white;
+    background-color: rgb(0, 0, 0);
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.social-icons a :focus{
+    color: brown;
+}
